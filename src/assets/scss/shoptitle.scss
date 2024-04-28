@@ -1,0 +1,24 @@
+.shop-title{
+    font-size: 50px;
+    font-family: Anton,sans-serif;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.classify{
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 15px;
+    font-family: Anton,sans-serif;
+    font-weight: 800;
+    border-left-style: solid;
+    border-left-color: white;
+    transition: .5s;
+
+    &:hover
+       {
+        border-left-color: black;
+       }
+}
+

@@ -1,0 +1,49 @@
+.header-carousel-item {
+    height: 430px;
+}
+
+.header-cover{
+    background-size: cover;
+    background-position: center center;
+}
+.header-text{
+    font-weight:1000;
+    position: absolute;
+    bottom: 100px;
+}
+
+.header-text-2{
+    color: black;
+    font-weight:1000;
+    position: absolute;
+    bottom: 300px;
+}
+
+.header-background{
+    background-color: rgb(248, 249, 250);
+    height: 450px;
+    margin-bottom: 80px;
+}
+.header-title{
+    font-family: Anton,sans-serif;
+    font-weight: 800;
+}
+
+.ellipsis{
+ max-width: 130px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.price{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content{
+    flex: 1;
+}
+
+
+

@@ -1,0 +1,57 @@
+.new-img{
+    background-image: url(https://www.bt21.com/content/202004/main_banner_mo_2.jpg);
+    height: 530px;
+    background-size: cover;
+    background-position: center center;
+    border-radius:8px;
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+    margin-top: -30px;
+}
+.new-content{
+    padding-right: 50px;
+    padding-left: 48px;
+}
+
+.new-content-2{
+    border-top: #000000 3px solid;
+}
+
+.new-img-1{
+    background-image: url(https://tycoon.mx/wp-content/uploads/2019/07/BT21_1920_1080.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+    height: 350px;
+    width: 600px;
+}
+
+.new-img-2{
+    background-image: url(https://a.ksd-i.com/a/2020-06-11/127491-847414.png);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+    height: 350px;
+    width: 600px;
+}
+
+.card-img{
+  transform:scale(1,1);
+  transition: .3s;
+}
+
+.card {
+      &:hover .card-img
+       {
+          transform:scale(1.2,1.2);
+       }
+}
+
+.product-img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 1px;
+}
+
+.newBtn{
+ display: flex;
+}    

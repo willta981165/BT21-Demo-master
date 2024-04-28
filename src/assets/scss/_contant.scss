@@ -1,0 +1,146 @@
+.shop-link{
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+        &:hover .shop-link-border::before
+    {
+      top: 53px;
+      left: 89px;
+      width: 357px;
+      height: 221px;
+      opacity: 1.0;
+    }
+       &:hover .link-text-1
+       {
+          line-height: 322px;
+          opacity: 1.0;
+       }
+}
+.shop-link-border{
+    position: relative; 
+    text-align: center; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.shop-link-border::before{
+    content: "";
+    border: 2px solid white;
+    top: 20px;
+    bottom: 20px;
+    left: 30px;
+    width: 476px;
+    height: 294px;
+    position: absolute;
+    transition: .5s;
+    opacity: 0.0;
+}
+
+.shop-link-img{
+    background-image: url(https://www.i-pass.com.tw/CKPackage/images/BT21-190617_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px; 
+    width: 100%
+}
+
+.shop-link-sm{
+    background-image: url(https://www.i-pass.com.tw/CKPackage/images/BT21-190617_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 250px; 
+    width: 100%;
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+}
+
+.link-text-1{
+    color: black;
+    line-height: 40px;
+    transition: .5s;
+    opacity: 0.0;
+}
+
+
+.shop-link-2{
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+        &:hover .shop-link-border-2::before
+    {
+      top: 53px;
+      left: 89px;
+      width: 357px;
+      height: 221px;
+      opacity: 1.0;
+    }
+       &:hover .bt-move
+       {
+          top: 120px;
+          opacity: 1.0;
+       }
+}
+.shop-link-border-2{
+    position: relative; 
+    text-align: center; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.shop-link-border-2::before{
+    content: "";
+    border: 2px solid black;
+    top: 20px;
+    bottom: 20px;
+    left: 30px;
+    width: 476px;
+    height: 294px;
+    position: absolute;
+    transition: .5s;
+    opacity: 0.0;
+}
+
+.shop-link-img-2{
+    background-image: url(https://i.imgur.com/6sI38KA.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px; 
+    width: 100%
+}
+
+.shop-link-sm-2{
+    background-image: url(https://i.imgur.com/6sI38KA.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 250px; 
+    width: 100%;
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+}
+
+.bt-move{
+    position: relative;
+    top: 0px;
+    transition: .5s;
+    opacity: 0.0;
+}
+
+.follow-bg-cover{
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.follow-bg{
+    padding: 60px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://d.line-scdn.net/stf/linecorp/zh-hant/pr/BT21_1.jpg);
+    border-radius: 8px;
+    box-shadow: 3px 9px 6px 2px #C0C0C0;
+}
+
+.move-left{
+    opacity: 0.0;
+}
+
+.move-right{
+    opacity: 0.0;
+}
+
+
+

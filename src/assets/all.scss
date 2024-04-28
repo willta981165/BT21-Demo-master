@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/functions";
+@import "./scss/helpers/variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "./scss/_dashboard";
+@import "./scss/_badge";
+@import "./scss/header";
+@import "./scss/_img";
+@import "./scss/_contant";
+@import "./scss/footer";
+@import "./scss/login";
+@import "./scss/loading";
+@import "./scss/shoptitle";
+@import "./scss/product";
+@import "./scss/custormerorder";
+
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+  }
+
+  button {
+    outline: none !important;
+    outline: 0 !important;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+
+
