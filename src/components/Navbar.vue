@@ -2,7 +2,7 @@
   <div>
     <div id="loading">
       <img
-        src="https://cdn130.picsart.com/261149211002202.gif?to=min&r=640"
+        src="https://i.pinimg.com/originals/f6/ce/0e/f6ce0eddadaff51331fe2367cc591d7b.gif"
         alt="loading.."
         width="300"
       />
